@@ -1,0 +1,17 @@
+langchain
+langchain-openai
+langchain-community
+faiss-cpu
+openai
+python-dotenv
+docx2txt
+elevenlabs
+simpleaudio
+pyaudio
+webrtcvad
+fastapi
+uvicorn
+websockets
+playwright
+twilio
+pydub

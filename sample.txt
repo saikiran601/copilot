@@ -1,0 +1,10 @@
+Retrieval-Augmented Generation (RAG) is a method that enhances the capabilities of large language models by integrating retrieval mechanisms. Instead of relying solely on the model's pre-trained knowledge, RAG retrieves relevant information from a external knowledge base or corpus to provide more accurate, up-to-date, and contextually appropriate responses.
+
+The RAG architecture typically consists of three main components:
+1. A retriever that searches for relevant documents or passages based on the input query.
+2. A generator (language model) that uses the retrieved information to produce the final output.
+3. A knowledge base or vector store that contains the indexed documents.
+
+LangChain is a popular framework for building RAG applications, providing tools for document loading, text splitting, embedding creation, vector storage, and chain construction.
+
+This project demonstrates a basic RAG implementation using LangChain with OpenAI embeddings and FAISS vector store.
